@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desings SL</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: white;
+    }
+
+    header {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid red;
+    }
+
+    .logo img {
+      height: 60px;
+      border: 2px solid red;
+      padding: 5px;
+      border-radius: 12px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      background: #000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: red;
+    }
+
+    .hero {
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('Capturar(1).PNG');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+    }
+
+    .hero span {
+      color: red;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .cards {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #111;
+      padding: 20px;
+      border-radius: 15px;
+      width: 250px;
+      border: 1px solid red;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      border-top: 2px solid red;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      padding: 15px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .whatsapp svg {
+      width: 24px;
+      height: 24px;
+      fill: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="Capturar(1).PNG" alt="Logo Desings SL">
+  </div>
+</header>
+
+<nav>
+  <a href="#">Início</a>
+  <a href="#">Sobre</a>
+  <a href="#">Desenhos</a>
+  <a href="#">Contato</a>
+</nav>
+
+<div class="hero">
+  <div>
+    <h1>Bem-vindo à <span>Desings SL</span></h1>
+    <p>Sua loja de desenhos exclusivos 🔥</p>
+  </div>
+</div>
+
+<section class="section">
+  <h2>Nossos Desenhos</h2>
+  <div class="cards">
+    <div class="card">Desenhos personalizados</div>
+    <div class="card">Artes exclusivas</div>
+    <div class="card">Design profissional</div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Contato</h2>
+  <p>Email: kauesamuellopes@gmail.com</p>
+</section>
+
+<footer>
+  © 2026 Desings SL - Todos os direitos reservados
+</footer>
+
+<a href="https://wa.me/5511997196642" target="_blank" class="whatsapp">
+  <svg viewBox="0 0 24 24">
+    <path d="M20.52 3.48A11.82 11.82 0 0 0 12.05 0C5.4 0 .01 5.39 0 12.05c0 2.12.55 4.19 1.6 6.02L0 24l6.09-1.6a12.03 12.03 0 0 0 5.96 1.52h.01c6.65 0 12.04-5.39 12.05-12.05 0-3.22-1.25-6.25-3.59-8.39z"/>
+  </svg>
+</a>
+
+</body>
+</html>
